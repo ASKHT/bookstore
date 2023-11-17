@@ -11,6 +11,6 @@ const bookschemas = mongoose.Schema({
   },
   publishyear: {
     type: "string",
-    required: true,
+    required: false,
   },
 });
